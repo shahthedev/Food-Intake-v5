@@ -1,0 +1,285 @@
+// Modal 1
+.modal-header{
+    .modal-title{//margin-left: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        font-weight:600 ;
+        }
+}
+
+
+
+
+.form-control-sm{
+    padding-right: 32px;
+}
+.selected,.patient-food-intake{
+    button:first-child{
+        margin-left: 0;
+    }
+    button:last-child{
+        margin-right: 0;
+    }
+    button{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight:400 ;
+        padding-left: 16px;        padding-right: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-right:8px;
+        // margin-left:8px;
+        margin-top:8px;
+        margin-bottom:8px;
+    }
+}
+.patient-food-intake{
+    .card{
+        border-radius: 24px;
+        box-shadow: 0px 0px 11px 0px #00000042;
+        i{
+            color: rgb(193, 171, 96);
+        }       
+        .fa-heart:active{
+            color: red !important;
+    
+        }
+        .card-main-image{
+            img{
+                width: 100%;
+                height: 175px;
+                object-fit: cover;
+                border-radius: 24px 0 0 24px;
+            }
+        }
+    }
+
+    .comment{
+        .card2 {
+            max-height: 284px;
+            overflow-x: scroll;
+            background: none;
+            margin-top: -40px !important;
+            border-radius: 0 0 24px 24px;
+            box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.2588235294);
+            background-color: #fff;
+            border: none;
+            padding-top: 35px;
+
+            .form-color {
+                background-color: #fafafa;
+                .form-control {
+                    height: 48px;
+                    border-radius: 25px;
+                    :focus {
+                        color: #495057;
+                        background-color: #fff;
+                        border-color: #35b69f;
+                        outline: 0;
+                        box-shadow: none;
+                        text-indent: 10px
+                    }
+                   }}          
+                   
+                .comment-text {
+                    font-size: 13px
+                }
+                .wish {
+                    color: #35b69f
+                }}
+    }
+
+a{  font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400 ;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    i{
+        margin-left: 4px;
+        color: #C1AB60;
+    }
+}}
+
+.modal-content{
+    border-radius: 24px;
+    outline: 0;
+}
+
+.side{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    button{
+        justify-content: center;
+    width: 120px;
+    background: transparent;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 50px;
+
+    &:hover{
+        background: black;
+        transition: .6s;
+        border-radius: 50px;
+        color: white;
+    }
+}
+
+}
+// Modal 1 Second Section
+
+.modal-footer{
+    border-top: none !important;
+}
+
+
+
+.form-control:focus, .form-select:focus {
+    border-color: #5c636a !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(60, 61, 61, 0.25) !important;
+}
+.btn-dark{
+    background-color: #2A2A31;
+}
+
+  
+  .max-h-75vh{
+    max-height: 75vh;
+  }
+@media only screen and (max-width: 600px) {
+    .side{
+        justify-content: center; 
+    }
+    .modal{
+        .modal-header{
+            padding:1rem !important;
+            .modal-title{
+                font-size: 16px;
+    
+            }
+        }
+      
+        .modal-body{
+            padding:1rem !important;
+            text-align: center;
+            h4{
+                font-size: 16px;
+            }
+            p{
+                font-size: 12px;
+            }
+            div.side{
+                button, a , i{
+                    margin-bottom: 5px;
+                }
+            }
+
+        } 
+        .modal-footer{
+            justify-content: center;
+        }
+    }
+    .selected button, .patient-food-intake button{
+        font-size: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    }
+
+}
+//Modal 2
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight:600 ;
+    color:  #131313;
+    margin: 0;
+}
+.subheading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.p-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight:600 ;
+    color: #707070;
+}
+.p-paragraph{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400 ;
+    color: #707070;;
+}
+.modal-body{
+    .header{
+        .col-lg-4,.col-lg-6{
+            // padding-right: 20px;
+            margin-right: 10px;
+        }
+    }
+    .recommendation{
+
+        overflow-x: auto;
+        &::-webkit-scrollbar {
+            height: 7px;
+          }
+          
+          /* Track */
+          ::-webkit-scrollbar-track {
+            background: #DBDBDB;
+            border-radius: 4px;
+        
+          }
+          
+          /* Handle */
+          ::-webkit-scrollbar-thumb {
+            background: #656565;
+            border-radius: 4px;
+        
+          }
+
+          .col-lg-4,.col-lg-6{
+            padding-right: 20px;
+            margin-right: 10px;
+
+        }
+
+    }
+}
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 4px;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #656565;
+    border-radius: 4px;
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2A2A31;
+  }
